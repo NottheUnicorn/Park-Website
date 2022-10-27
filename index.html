@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>National Park</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+
+.row.content {height: 1000px}
+
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #909b93;
+    height: 100%;
+}
+
+
+footer {
+    background-color: rgb(10, 99, 32);
+    color: rgb(210, 224, 213);
+    padding: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+    height: auto;
+    padding: 15px;
+    }
+    .row.content {height:auto;} 
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand" href="#">National Park</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <li class="active"><a href="./index.html">Home</a></li>
+    <li><a href="./templates/about.html">About</a></li>
+    <li><a href="./templates/pictures.html">Pictures</a></li>
+    <li><a href="./templates/map_image.html">Map Image</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+
+<div class="container-fluid text-center">    
+<div class="row content">
+<div class="col-sm-2 sidenav">
+    <p><a href="images/old_faithful.jpeg">Old Faithful</a></p>
+    <p><a href="images/grand_prismitic_spring.jpeg">Grand Prismitic Spring</a></p>
+    <p><a href="images/yellowstone_falls.jpeg">Yellowstone Falls</a></p>
+</div>
+<div class="col-sm-8 text-left"> 
+    <h1>Welcome</h1>
+    <p>Yellowstone was probably the most exciting and beautiful place I ever went to. If I could I would go every year.</p>
+    <br>
+    <p>However I dont think I would do backcountry camping again. Too many wolves howling and bison snorting</p>
+<img src="images/field.jpeg" width="70%" padding="5px" bottom-margin="5px" alt="">
+</div>
+</div>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+<p>Yellowstone....Go There</p>
+</footer>
+
+</body>
+</html>
